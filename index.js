@@ -5,9 +5,9 @@
  
  }
  
-// function   fuzzyMatch(drivers, string) {
-// let sl = string.length 
+function   fuzzyMatch(drivers, string) {
+let sl = string.length 
     
-// .filter(n => n))
-//   return driver
-// }
+.filter(n => n))
+  return driver
+}
