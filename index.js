@@ -10,5 +10,5 @@ return drivers.filter(n => n.indexOf(string) === 0)
 }
 
 function matchName(drivers, string){
-  return drivers(name => name === string)
+  return drivers.filter(name => name === string)
 }
