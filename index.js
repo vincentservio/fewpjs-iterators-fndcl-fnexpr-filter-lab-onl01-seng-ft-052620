@@ -6,5 +6,5 @@
  }
  
 function   fuzzyMatch(drivers, string) {
-return drivers.filter(n => n.indexoOf(string) === 0)
+return drivers.filter(n => n.indexOf(string) === 0)
 }
